@@ -1,0 +1,114 @@
+@charset "UTF-8";
+
+/* Admin Bar */
+
+@import "admin-bar";
+
+
+
+/* LOGGER */
+
+@import "logger";
+
+
+
+/* BIO */
+
+.widget_jbcommon_bio_widget{
+	text-align:center;
+
+	h3{
+		text-align:left;
+	}
+	img{
+		margin:1em 0;
+	}
+	p{
+		text-align:justify;
+	}
+}
+.jbcommon_sc_bio{
+	padding:12px;
+
+	img{
+		float:left;
+		margin-right:24px;
+	}
+}
+
+
+
+/* DONATE */
+
+.donate-form{
+	text-align:center;
+}
+
+
+
+/* FEEDS */
+
+.widget_jbcommon_feeds_widget,
+.jbcommon_sc_feeds{
+
+	h4{
+		margin-top:12px;
+	}
+	div{
+		text-align:center;
+
+		label{
+			vertical-align:middle;
+			margin-right:6px;
+		}
+		select{
+			vertical-align:middle;
+		}
+	}
+	ul{
+		list-style-type:none;
+		text-align:center;
+
+		li{
+			list-style-type:none;
+		}
+
+		ul{
+			list-style-type:none;
+			text-align:left;
+			display:inline-block;
+			margin-top:12px;
+
+			li{
+				background:url("../img/rss.oxygen-team.gnu_gpl.16x16.png") no-repeat scroll 0 4px transparent;
+				list-style-type:none;
+				padding-left:22px;
+			}
+		}
+	}
+}
+
+
+
+/* ATTACHMENTS */
+
+.jbcommon-attachments{
+	ul{
+		li{
+			margin-bottom:36px;
+
+			a{
+				img{
+					vertical-align:middle;
+					margin-right:12px;
+				}
+			}
+			.jbcommon-attachments-size{
+				color:#757575;
+			}
+			.jbcommon-attachments-caption{
+				margin:12px 0;
+			}
+		}
+	}
+}

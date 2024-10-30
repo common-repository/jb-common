@@ -1,0 +1,41 @@
+.jbcommon-log-box{
+	box-shadow:0px 0px 10px #ccc;
+	padding:12px;
+	margin:12px;
+	width:90%;
+	text-align:center;
+	font-size:0;
+
+	& > ul{
+		list-style-type:disc;
+		text-align:left;
+		display:inline-block;
+		font-size:12px;
+		padding-left:12px;
+
+		ul{
+			list-style-type:circle;
+		}
+		li{
+			margin:0;
+		}
+	}
+} 
+.jbcommon-log-box-admin{
+	@extend .jbcommon-log-box;
+}
+
+
+
+.jbcommon-log-level-message{
+	border:1px solid #aca;
+	background-color:#cfc;
+}
+.jbcommon-log-level-error{
+	border:1px solid #caa;
+	background-color:#fcc;
+}
+.jbcommon-log-level-debug{
+	border:1px solid #cca;
+	background-color:#ffc;
+}

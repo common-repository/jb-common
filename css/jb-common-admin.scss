@@ -1,0 +1,233 @@
+@charset "UTF-8";
+
+$section_background_color: #ececec;
+
+@mixin span_label{
+	font-weight:bold;
+}
+
+/* --- COMMON --- */
+
+/* Header */
+
+header{
+	margin:24px 2.5%;
+
+	img{
+		vertical-align:middle;
+	}
+	h1{
+		display:inline-block;
+		margin-left:24px;
+		vertical-align:middle;
+	}
+}
+
+h2{
+	font-size:12px;
+	height:32px;
+	line-height:32px;
+	padding-left:42px;
+	margin-top:0;
+	text-align:left;
+}
+
+
+/* Table */
+
+table{
+	
+	caption{
+		margin-bottom:6px;
+		font-style:italic;
+	}
+	th{
+		text-align:center;
+	}
+	td{
+		vertical-align:middle;
+	}
+	.jbcommon-admin-tr-even{
+		background-color:#efefef;
+	}
+	.jbcommon-admin-tr-odd{
+		background-color:transparent;
+	}
+}
+
+
+/* Inputs */
+
+input[type='radio'],
+textarea{
+	vertical-align:middle;
+}
+
+input[type='submit']{
+	font-size:12px;
+	margin-top:16px;
+	padding:5px;
+	width:200px;
+}
+
+
+/* Section */
+
+section{
+	border:1px solid #D574A5;
+	box-shadow:0px 0px 10px #ccc;
+	background-color:$section_background_color;
+	padding:12px;
+	margin:12px 0;
+	width:95%;
+	text-align:center;
+}
+
+/* Admin Bar */
+
+@import "admin-bar";
+
+
+
+/* LOGGER */
+
+@import "logger";
+
+
+
+/* CONFIGURATION */
+
+#jbcommon-configuration{
+
+	h2{
+		background:url('../img/application_x_desktop.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+	table{
+		margin:24px 0 72px;
+	}
+	.jbcommon-configuration-td-selected{
+		background-color:#aac;
+		border-radius:5px;
+	}
+	.jbcommon-configuration-option-name{
+		background:none repeat scroll 0 0 #EAEAEA;
+		font-size:11px;
+		margin:0 1px;
+		padding:1px 3px;
+		font-family: Consolas,Monaco,monospace;
+	}
+}
+
+
+
+/* SHOW LOG */
+
+#jbcommon-show-log{
+	
+	h2{
+		background:url('../img/edit.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+	pre{
+		height:500px;
+		background-color:#ccf;
+		text-align:left;
+		overflow:scroll;
+		border-style:groove;
+	}
+}
+
+
+
+/* INFO */
+
+#jbcommon-about,
+#jbcommon-license,
+#jbcommon-reference{
+	text-align:left;
+
+	h3{
+		margin-top:36px;
+	}
+	ul{
+		list-style-type:disc;
+		padding-left:6em;
+
+		ul{
+			margin:12px 0;
+			list-style-type:circle;
+
+			ul{
+				list-style-type:square;
+			}
+		}
+	}
+	h4{
+		display:inline-block;
+		margin:0;
+		font-size:12px;
+	}
+}
+
+#jbcommon-about{
+
+	h2{
+		background:url('../img/document-properties.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+	.jbcommon-about-label{
+		@include span_label;
+	}
+	.donate-form{
+		display:inline-block;
+		vertical-align:middle;
+	}
+}
+
+
+#jbcommon-license{
+
+	h2{
+		background:url('../img/xemacs.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+	pre{
+		border:1px solid #000000;
+		height:500px;
+		width:554px;
+		overflow-y:scroll;
+		padding:12px;
+		background-color:darken($section_background_color,10%);
+	}
+	.jbcommon-license-resource-name{
+		@include span_label;
+	}
+	.jbcommon-license-resource-label{
+		@include span_label;
+	}
+}
+
+#jbcommon-reference{
+
+	h2{
+		background:url('../img/help_contents.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+	.jbcommon-reference-shortcode-name,
+	.jbcommon-reference-shortcode-label,
+	.jbcommon-reference-shortcode-argument-label,
+	.jbcommon-reference-widget-name,
+	.jbcommon-reference-widget-label,
+	.jbcommon-reference-widget-argument-label,
+	.jbcommon-reference-function-name,
+	.jbcommon-reference-function-label,
+	.jbcommon-reference-function-argument-label,
+	.jbcommon-reference-logger-method-label,
+	.jbcommon-reference-logger-level-label,
+	.jbcommon-reference-db-wrapper-argument-label{
+		@include span_label;
+	}
+}
+
+#jbcommon-thank-you{
+
+	h2{
+		background:url('../img/love.oxygen-team.gnu_gpl.32x32.png') no-repeat;
+	}
+}

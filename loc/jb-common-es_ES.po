@@ -1,0 +1,1015 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: jb-common\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-04-05 13:42+0100\n"
+"PO-Revision-Date: 2013-04-05 13:42+0100\n"
+"Last-Translator: Joan Botella Vinaches <joanbotella@joanbotella.com>\n"
+"Language-Team: Joan Botella Vinaches <joanbotella@joanbotella.com>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e;_ngettext:1,2\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: Spanish\n"
+"X-Poedit-Country: SPAIN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../jb-common.php:77
+msgid "A plugin with common features missed in WordPress, like favicon, meta tags, adding HTML to head and footer, WordPress e-mail from header filter, etc."
+msgstr "Un plugin con funcionalidades comunes que se echan de menos en WordPress, como favicon, meta tags, añadir HTML al head y footer, filtro de la cabecera from de los e-mails de WordPress, etc."
+
+#: ../jb-common.php:81
+msgid "GNU/GPL v3.0 or later"
+msgstr "GNU/GPL v3.0 o posterior"
+
+#: ../cfg/info.php:8
+#: ../cfg/info.php:88
+#: ../cfg/info.php:154
+#: ../cfg/info.php:189
+msgid "Name:"
+msgstr "Nombre:"
+
+#: ../cfg/info.php:9
+msgid "View the resource:"
+msgstr "Ver el recurso:"
+
+#: ../cfg/info.php:10
+#: ../cfg/info.php:89
+#: ../cfg/info.php:155
+#: ../cfg/info.php:190
+msgid "Description:"
+msgstr "Descripción:"
+
+#: ../cfg/info.php:11
+msgid "Author:"
+msgstr "Autor:"
+
+#: ../cfg/info.php:12
+msgid "Author URI:"
+msgstr "URI del autor:"
+
+#: ../cfg/info.php:13
+msgid "License:"
+msgstr "Licencia:"
+
+#: ../cfg/info.php:14
+msgid "Obtained from:"
+msgstr "Obtenido de:"
+
+#: ../cfg/info.php:20
+#: ../cfg/info.php:29
+#: ../cfg/info.php:38
+#: ../cfg/info.php:47
+#: ../cfg/info.php:56
+#: ../cfg/info.php:65
+#: ../cfg/info.php:74
+msgid "View the resource"
+msgstr "Ver el recurso"
+
+#: ../cfg/info.php:21
+msgid "Icon for the Configuration admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Configuración. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:24
+#: ../cfg/info.php:33
+#: ../cfg/info.php:42
+#: ../cfg/info.php:51
+#: ../cfg/info.php:60
+#: ../cfg/info.php:69
+#: ../cfg/info.php:78
+msgid "GNU/GPL"
+msgstr "GNU/GPL"
+
+#: ../cfg/info.php:25
+#: ../cfg/info.php:34
+#: ../cfg/info.php:43
+#: ../cfg/info.php:52
+#: ../cfg/info.php:61
+#: ../cfg/info.php:70
+#: ../cfg/info.php:79
+msgid "Go to the resource source"
+msgstr "Ir a la fuente del recurso"
+
+#: ../cfg/info.php:30
+msgid "Icon for the About admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Acerca de. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:39
+msgid "Icon for the Show Log admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Mostrar Registro. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:48
+msgid "Icon for the Reference admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Referencia. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:57
+msgid "Icon for the Thank You admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Gracias. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:66
+msgid "Icon for styling the web feeds lists. From the Oxygen icons package."
+msgstr "Icono para el estilo de las listas de fuentes web. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:75
+msgid "Icon for the License admin section. From the Oxygen icons package."
+msgstr "Icono para la sección de administración Licencia. Del paquete de iconos Oxygen."
+
+#: ../cfg/info.php:90
+#: ../cfg/info.php:191
+msgid "Arguments:"
+msgstr "Parámetros:"
+
+#: ../cfg/info.php:91
+msgid "Content:"
+msgstr "Contenido:"
+
+#: ../cfg/info.php:92
+#: ../cfg/info.php:193
+msgid "Examples:"
+msgstr "Ejemplos:"
+
+#: ../cfg/info.php:98
+msgid "Shows an user avatar and description, just like the <a href=\"#JBCommon_Bio_Widget\" title=\"Go to JBCommon_Bio_Widget reference\">JBCommon_Bio_Widget</a> does."
+msgstr "Muestra el avatar y la descripción de un usuario, tal y como lo hace el <a href=\"#JBCommon_Bio_Widget\" title=\"Ir a la referencia de JBCommon_Bio_Widget\">JBCommon_Bio_Widget</a>."
+
+#: ../cfg/info.php:100
+msgid "User ID. Defaults to the current post author ID."
+msgstr "ID del usuario. Por defecto el ID del autor de la entrada actual."
+
+#: ../cfg/info.php:101
+msgid "Class for the div container. Defaults to \"jbcommon_sc_bio\"."
+msgstr "Clase para el div contenedor. Por defecto \"jbcommon_sc_bio\"."
+
+#: ../cfg/info.php:103
+msgid "If any, overwrite the \"uid\" argument value."
+msgstr "De haberlo, sobreescribe el valor del parámetro \"uid\"."
+
+#: ../cfg/info.php:111
+msgid "Calls the PHP function <code><a href=\"http://php.net/manual/en/function.call-user-func-array.php\" title=\"Go to PHP.net post about call_user_func_array\" target=\"_blank\">call_user_func_array</a>($func,explode($params_separator,$params))</code>, with the specified parameters."
+msgstr "Llama a la función PHP <code><a href=\"http://php.net/manual/en/function.call-user-func-array.php\" title=\"Ir a la entrada de PHP.net acerca de call_user_func_array\" target=\"_blank\">call_user_func_array</a>($func,explode($params_separator,$params))</code>, con los parámetros especificados."
+
+#: ../cfg/info.php:113
+msgid "Function name."
+msgstr "Nombre de la función."
+
+#: ../cfg/info.php:114
+msgid "The parameters for the function, separated by \"params_separator\"."
+msgstr "Los parámetros de la función, separados por \"params_separator\"."
+
+#: ../cfg/info.php:115
+msgid "The character for separating parameters in the \"params\" string. Defaults to a comma (,)."
+msgstr "El caracter para separar parámetros en la cadena \"params\". Por defecto una coma (,)."
+
+#: ../cfg/info.php:117
+msgid "If any, overwrite the \"params\" argument value."
+msgstr "De haberlo, sobreescribe el valor del parámetro \"params\"."
+
+#: ../cfg/info.php:125
+msgid "Shows the available web feeds for the current content, in Atom and RSS v2.0 formats, just like the <a href=\"#JBCommon_Feeds_Widget\" title=\"Go to JBCommon_Feeds_Widget reference\">JBCommon_Feeds_Widget</a> does."
+msgstr "Muestra las fuentes web disponibles para el contenido actual, tal y como lo hace el <a href=\"#JBCommon_Feeds_Widget\" title=\"Ir a la referencia de JBCommon_Feeds_Widget\">JBCommon_Feeds_Widget</a>."
+
+#: ../cfg/info.php:127
+msgid "Id for the div container. Required for the dynamic behavior, if none is passed a plain list will be echoed."
+msgstr "Id para el div contenedor. Requerido para el comportamiento dinámico, si no se especifica se mostrará una lista simple."
+
+#: ../cfg/info.php:128
+msgid "Class for the div container. Defaults to \"jbcommon_sc_feeds\"."
+msgstr "Clase para el div contenedor. Por defecto \"jbcommon_sc_feeds\"."
+
+#: ../cfg/info.php:130
+msgid "If any, overwrite the \"id\" argument value."
+msgstr "De haberlo, sobreescribe el valor del parámetro \"id\"."
+
+#: ../cfg/info.php:138
+msgid "Shows the value of the passed constant. If the constant is not defined shows the \"c\" argument value."
+msgstr "Muestra el valor de la constante especificada. Si la constante no está definida muestra el valor del parámetro \"c\"."
+
+#: ../cfg/info.php:140
+msgid "Constant name."
+msgstr "Nombre de la constante."
+
+#: ../cfg/info.php:142
+msgid "If any, overwrite the \"c\" argument value."
+msgstr "De haberlo, sobreescribe el valor del parámetro \"c\"."
+
+#: ../cfg/info.php:156
+msgid "Widget arguments:"
+msgstr "Parámetros del widget:"
+
+#: ../cfg/info.php:157
+msgid "Static method arguments:"
+msgstr "Parámetros del método estático:"
+
+#: ../cfg/info.php:163
+msgid "Shows an user avatar and description. Uses its static method <code>JBCommon_Bio_Widget::echo_bio($uid=false)</code> that can be called from elsewhere, including a theme."
+msgstr "Muestra el avatar y la descripción de un usuario. Usa su método estático <code>JBCommon_Bio_Widget::echo_bio($uid=false)</code>, que puede ser llamado desde cualquier lugar, incluído un tema."
+
+#: ../cfg/info.php:165
+#: ../cfg/info.php:176
+msgid "The widget title."
+msgstr "El título del widget."
+
+#: ../cfg/info.php:166
+msgid "User ID."
+msgstr "ID del usuario."
+
+#: ../cfg/info.php:169
+msgid "User ID. Defaults to the current post author."
+msgstr "ID del usuario. Por defecto el del autor de la entrada actual."
+
+#: ../cfg/info.php:174
+msgid "Shows the available web feeds for the current content, in Atom and RSS v2.0 formats. Uses its static method <code>JBCommon_Feeds_Widget::echo_feeds($container_id=false)</code> that can be called from elsewhere, including a theme."
+msgstr "Muestra las fuentes web disponibles para el contenido actual, en los formatos Atom y RSS v2.0 . Usa su método estático <code>JBCommon_Feeds_Widget::echo_feeds($container_id=false)</code> , que puede ser llamado desde cualquier parte, incluyendo un tema."
+
+#: ../cfg/info.php:179
+msgid "Id for the div container. The widget assign its own id and can't be modified. Defaults to \"jbcommon_sc_feeds\"."
+msgstr "Id del div contenedor. El widget asigna su propio id y no puede ser modificado. Por defecto \"jbcommon_sc_feeds\"."
+
+#: ../cfg/info.php:192
+msgid "Returns:"
+msgstr "Devuelve:"
+
+#: ../cfg/info.php:199
+msgid "Adds a separation between two sections on the admin section left column, at the passed $position. Based on Mike Schinkel snippet from <a href=\"http://wordpress.stackexchange.com/questions/2666/add-a-separator-to-the-admin-menu\" title=\"Go to the source URL\" target=\"_blank\">this URL</a>."
+msgstr "Añade una separación entre dos secciones de la columna izquierda de la sección de administración, en la posición especificada por $position. Está basado en el fragmento de código de Mike Schinkel de <a href=\"http://wordpress.stackexchange.com/questions/2666/add-a-separator-to-the-admin-menu\" title=\"Ir a la URL original\" target=\"_blank\">esta URL</a>."
+
+#: ../cfg/info.php:201
+msgid "$GLOBALS['menu'] index to place the separation into."
+msgstr "Índice de $GLOBALS['menu'] en el que situar la separación."
+
+#: ../cfg/info.php:203
+#: ../cfg/info.php:214
+#: ../cfg/info.php:233
+#: ../cfg/info.php:242
+#: ../cfg/info.php:286
+#: ../cfg/info.php:295
+#: ../cfg/info.php:307
+msgid "Anything."
+msgstr "Nada."
+
+#: ../cfg/info.php:210
+msgid "Echoes the attachments for the current post or page defined with the <a href=\"https://github.com/jchristopher/attachments\" title=\"Go to the Attachments plugin website\" target=\"_blank\">Attachments plugin by Jonathan Christopher</a>. You can download the plugin from <a href=\"http://wordpress.org/extend/plugins/attachments/\" title=\"Go to the WordPress.org Extend entry for the Attachments plugin\" target=\"_blank\">its WordPress Extend page</a>. Useful for <a href=\"https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content\" title\"Go to the WordPress Codex entry about the the_content filter\" target=\"_blank\">filtering the_content</a>."
+msgstr "Muestra los adjuntos para la entrada o la página actual, definidos con el <a href=\"https://github.com/jchristopher/attachments\" title=\"Ir a la página del plugin Attachments\" target=\"_blank\">plugin Attachments de Jonathan Christopher</a>. Puedes descargar el plugin desde <a href=\"http://wordpress.org/extend/plugins/attachments/\" title=\"Ir a la entrada de WordPress.org Extend sobre el plugin Attachments\" target=\"_blank\">su página de WordPress Extend</a>. Útil para <a href=\"https://codex.wordpress.org/Plugin_API/Filter_Reference/the_content\" title\"Ir a la entrada del WordPress Codex acerca del filtro de the_content\" target=\"_blank\">filtrar the_content</a>."
+
+#: ../cfg/info.php:212
+msgid "The level for the h header tag (h1,h2,h3,h4,h5 or h6). Defaults to 4, because the post entries are under an h3."
+msgstr "El nivel de la etiqueta de cabecera h (h1,h2,h3,h4,h5 o h6). Por defecto es 4, porque las entradas están bajo una h3."
+
+#: ../cfg/info.php:221
+msgid "Returns the admin URL for the passed $page URL."
+msgstr "Devuelve la URL de administración para la URL de la página especificada en $page."
+
+#: ../cfg/info.php:223
+msgid "The page slug you want to get."
+msgstr "El slug de la página que quieres obtener."
+
+#: ../cfg/info.php:225
+#: ../cfg/info.php:234
+#: ../cfg/info.php:243
+#: ../cfg/info.php:265
+#: ../cfg/info.php:320
+msgid "A string containing the URL."
+msgstr "Un string conteniendo la URL."
+
+#: ../cfg/info.php:232
+msgid "Returns the permalink for the current page."
+msgstr "Devuelve el permalink para la página actual."
+
+#: ../cfg/info.php:241
+msgid "Returns the current URL for any page, get parameters included, and do not need to be inside The Loop like the get_permalink() function."
+msgstr "Devuelve la URL actual para cualquier página, parámetros get incluídos, y no necesita estar dentro de El Bucle como la función get_permalink()."
+
+#: ../cfg/info.php:250
+msgid "Returns the category object for the category in the $wp_query query object. Useful where the get_the_category is not set yet, for example, the pre_get_posts action."
+msgstr "Devuelve el objeto categoría para la categoría del objeto consulta $wp_query. Útil allí donde get_the_category aún no está listo, por ejemplo, la acción pre_get_posts."
+
+#: ../cfg/info.php:252
+msgid "The query for searching the category. Defaults to the $GLOBALS['wp_query']."
+msgstr "La consulta en la que buscar la categoría. Por defecto $GLOBALS['wp_query']."
+
+#: ../cfg/info.php:254
+msgid "The category object (term_id, name, slug, term_group, taxonomy, description, parent, count, cat_ID, category_count, category_description, cat_name, category_nicename, category_parent) if found, the boolean false if not."
+msgstr "El objeto categoría (term_id, name, slug, term_group, taxonomy, description, parent, count, cat_ID, category_count, category_description, cat_name, category_nicename, category_parent) si lo encuentra, el booleano false si no."
+
+#: ../cfg/info.php:261
+msgid "Returns the passed $url encoded into an URL for the W3C Validation service."
+msgstr "Devuelve la URL pasada en la variable $url codificada en una URL hacia el servicio de Validación W3C."
+
+#: ../cfg/info.php:263
+msgid "The URL to encode, for validation. Defaults to the current URL."
+msgstr "La URL a codificar, para validación. Por defecto es la URL actual."
+
+#: ../cfg/info.php:273
+msgid "Checks if $a is an array and all its elements are instances of the $class string."
+msgstr "Comprueba si $a es un array y todos sus elementos son instancias de la clase especificada en el string $class."
+
+#: ../cfg/info.php:275
+msgid "Suppossed array for checking its elements."
+msgstr "Supuesto array para comprobar sus elementos."
+
+#: ../cfg/info.php:276
+msgid "Name of the class for the elements."
+msgstr "Nombre de la clase para los elementos."
+
+#: ../cfg/info.php:278
+#: ../cfg/info.php:287
+#: ../cfg/info.php:296
+msgid "Returns booleans true or false."
+msgstr "Devuelve los booleanos true o false."
+
+#: ../cfg/info.php:285
+msgid "Checks if current page is the WordPress login one. Based on Amereservant snippet from <a href=\"http://stackoverflow.com/questions/5266945/wordpress-how-detect-if-current-page-is-the-login-page\" title=\"Go to the source URL\" target=\"_blank\">this URL</a>."
+msgstr "Comprueba si la página actual es la de login de WordPress. Basada en el fragmento de código de Amereservant en <a href=\"http://stackoverflow.com/questions/5266945/wordpress-how-detect-if-current-page-is-the-login-page\" title=\"Ir a la URL original\" target=\"_blank\">esta URL</a>."
+
+#: ../cfg/info.php:294
+msgid "Checks if current page is the WordPress register one. Based on Amereservant snippet from <a href=\"http://stackoverflow.com/questions/5266945/wordpress-how-detect-if-current-page-is-the-login-page\" title=\"Go to the source URL\" target=\"_blank\">this URL</a>."
+msgstr "Comprueba si la página actual es la de registro de WordPress. Basada en el fragmento de código de Amereservant en <a href=\"http://stackoverflow.com/questions/5266945/wordpress-how-detect-if-current-page-is-the-login-page\" title=\"Ir a la URL original\" target=\"_blank\">esta URL</a>."
+
+#: ../cfg/info.php:303
+msgid "Echoes the PHP print_r function for the passed $var, wrapped into &lt;pre&gt;&lt;/pre&gt; tags for enhace readability."
+msgstr "Muestra el resultado de la función PHP print_r para el parámetro $var, envuelto por las etiquetas &lt;pre&gt;&lt;/pre&gt; para mejorar su legibilidad."
+
+#: ../cfg/info.php:305
+msgid "Variable to inspect."
+msgstr "Variable a inspeccionar."
+
+#: ../cfg/info.php:314
+msgid "Returns the $url with the $vars appended as GET variables. If $entity is true, the HTML entity &amp;amp; will be used instead of a simple &amp;."
+msgstr "Devuelve la URL especificada en $url con las variables $var concatenadas. Si la variable $entity está a true, se usará la entidad HTML &amp;amp; en lugar de un simple &amp;."
+
+#: ../cfg/info.php:316
+msgid "An associative array with the vars names and values to be appended."
+msgstr "Un array asociativo con los nombres y valores de las variables a ser concatenadas."
+
+#: ../cfg/info.php:317
+msgid "The URL for appending to the vars, defaults to the current URL."
+msgstr "La URL a la que concatenar las variables, por defecto la URL actual."
+
+#: ../cfg/info.php:318
+msgid "If true the vars are appended with the HTML entity &amp;amp;, else with a simple &amp;."
+msgstr "Si está a true las variables se concatenan con la entidad HTML &amp;amp;, si no con un simple &amp;."
+
+#: ../cfg/info.php:332
+msgid "Echoes a div with the passed $entries, that must be an array of JBCommon_Log_Entry instances, with a class attribute for the entries level. Why are you using this directly?."
+msgstr "Muestra un div con las entradas pasadas en la variable $entries, que debe ser un array de instancias de JBCommon_Log_Entry, con el atributo class adecuado al nivel de las entradas. ¿Por qué estás usando este método directamente?"
+
+#: ../cfg/info.php:333
+msgid "Calls multiple times to echo_box($entries) for echoing the log buffer content. Flushes the log buffer only on $empty_buffer=true. Useful on admin pages header for showing messages to the user."
+msgstr "Llama repetidamente a echo_box($entries) para mostrar el contenido del buffer del registro. Vacía el buffer del registro sólo si $empty_buffer=true. Útil en las cabeceras de las páginas de administración para mostrar mensajes al usuario."
+
+#: ../cfg/info.php:334
+msgid "Retrieves the current log file path."
+msgstr "Devuelve la ruta al fichero de registro actual."
+
+#: ../cfg/info.php:335
+msgid "Pushes the $t message, with $l level, to the log buffer. The level defaults to JBCOMMON_LOG_LEVEL_MESSAGE . It's surely the most important and useful method for you."
+msgstr "Inserta el mensaje $t, con nivel $l, en el buffer del registro. El nivel por defecto es JBCOMMON_LOG_LEVEL_MESSAGE. Seguramente te resultará el método más importante y útil."
+
+#: ../cfg/info.php:336
+msgid "Writes the log buffer content into the log file, and empties the buffer. The JB Common plugin does this at shutdown automatically."
+msgstr "Escribe el buffer del registro en el archivo del registro, y vacía el buffer. El plugin JB Common lo hace en su shutdown automáticamente."
+
+#: ../cfg/info.php:340
+msgid "Variable values and other debug data for the developer eyes only."
+msgstr "Valores variables y otros datos de depuración sólo para los ojos del desarrollador."
+
+#: ../cfg/info.php:341
+msgid "Detailed messages that are not needed usually."
+msgstr "Mensajes detallados que no suelen ser necesarios."
+
+#: ../cfg/info.php:342
+msgid "Common texts to explain briefly what is going on."
+msgstr "Textos comunes que explican brevemente qué está ocurriendo."
+
+#: ../cfg/info.php:343
+msgid "Messages explaining a non fatal wrong behavior."
+msgstr "Mensajes explicando un comportamiento incorrecto no fatal."
+
+#: ../cfg/info.php:344
+msgid "Something went really bad!"
+msgstr "¡Algo fue realmente mal!"
+
+#: ../cfg/info.php:345
+msgid "Enjoy the silence."
+msgstr "Disfruta el silencio."
+
+#: ../cfg/options.php:7
+msgid "Main"
+msgstr "Principal"
+
+#: ../cfg/options.php:12
+#: ../cfg/options.php:22
+#: ../cfg/options.php:46
+#: ../cfg/options.php:56
+#: ../cfg/options.php:73
+#: ../cfg/options.php:88
+#: ../cfg/options.php:102
+#: ../cfg/options.php:124
+#: ../cfg/options.php:134
+#: ../cfg/options.php:216
+#: ../cfg/options.php:265
+#: ../cfg/options.php:299
+#: ../cfg/options.php:333
+msgid "Disabled"
+msgstr "Deshabilitado"
+
+#: ../cfg/options.php:15
+msgid "Delete option custom values on plugin remove."
+msgstr "Elimina los valores personalizados de las opciones al eliminar el plugin."
+
+#: ../cfg/options.php:18
+#: ../cfg/options.php:52
+#: ../cfg/options.php:63
+#: ../cfg/options.php:69
+#: ../cfg/options.php:98
+#: ../cfg/options.php:130
+#: ../cfg/options.php:202
+#: ../cfg/options.php:212
+msgid "Enabled"
+msgstr "Habilitado"
+
+#: ../cfg/options.php:30
+msgid "Position for the JB Common admin menu. Refreshing the page will be needed to show the changes."
+msgstr "Posición para el menú de administración de JB Common. Será necesario refrescar la página para mostrar los cambios."
+
+#: ../cfg/options.php:37
+msgid "Editing"
+msgstr "Edición"
+
+#: ../cfg/options.php:42
+msgid "Posts custom meta key for the attachments managed by the <a href=\"https://github.com/jchristopher/attachments\" title=\"Go to the Attachments plugin website\" target=\"_blank\">Attachments plugin by Jonathan Christopher</a>. You can download the plugin from <a href=\"http://wordpress.org/extend/plugins/attachments/\" title=\"Go to the WordPress.org Extend entry for the Attachments plugin\" target=\"_blank\">its WordPress Extend page</a>."
+msgstr "Clave de los meta personalizados de las entradas para los adjuntos gestionados por el <a href=\"https://github.com/jchristopher/attachments\" title=\"Ir a la página del plugin Attachments\" target=\"_blank\">plugin Attachments de Jonathan Christopher</a>. Puedes descargar el plugin desde <a href=\"http://wordpress.org/extend/plugins/attachments/\" title=\"Ir a la entrada de WordPress.org Extend sobre el plugin Attachments\" target=\"_blank\">su página de WordPress Extend</a>."
+
+#: ../cfg/options.php:49
+msgid "Controls the WordPress auto format feature on post editing. Useful when exact HTML code is needed."
+msgstr "Controla la funcionalidad de WordPress de autoformatear durante la edición de entradas. Útil cuando se necesita código HTML exacto."
+
+#: ../cfg/options.php:66
+msgid "Shows a link, on the JB Common admin bar group, to the W3C Validator with the current URL, just for logged users with the \"edit_posts\" capability."
+msgstr "Muestra un enlace, en el grupo JB Common de la barra de administración, hacia el Validador W3C con la URL actual, sólo para usuarios registrados que tengan la capacidad \"edit_posts\"."
+
+#: ../cfg/options.php:83
+msgid "Maintenance & Debug Modes"
+msgstr "Modos de Mantenimiento y Depuración"
+
+#: ../cfg/options.php:94
+msgid "Sets the maintenance mode, for no-admin visitors redirecting. <a href=\"%url%\" title=\"Go to Maintenance Mode entry on the JB Common Info section\">Read the Maintenance Mode reference entry for more info</a>."
+msgstr "Establece el modo de mantenimiento, para redirigir a los visitantes no administradores. <a href=\"%url%\" title=\"Ir a la entrada sobre el Modo Mantenimiento en la sección de Información de JB Common\">Leer la entrada de la referencia sobre el Modo Mantenimiento para más información</a>."
+
+#: ../cfg/options.php:109
+msgid "URL for visitors redirecting on maintenance mode."
+msgstr "URL para redirigir a los visitantes en modo de mantenimiento."
+
+#: ../cfg/options.php:113
+msgid "maintenance"
+msgstr "mantenimiento"
+
+#: ../cfg/options.php:114
+msgid "Get variable name to avoid the maintenance mode redirection."
+msgstr "Nombre de la variable get para evitar la redirección del modo de mantenimiento."
+
+#: ../cfg/options.php:119
+msgid "Get variable value to avoid the maintenance mode redirection."
+msgstr "Valor de la variable get para evitar la redirección del modo de mantenimiento."
+
+#: ../cfg/options.php:127
+msgid "Sets the debug mode, for showing errors."
+msgstr "Establece el modo de depuración, para mostrar errores."
+
+#: ../cfg/options.php:143
+msgid "Footer"
+msgstr "Footer"
+
+#: ../cfg/options.php:147
+msgid "HTML text to print inside the footer tag. Useful for adding scripts."
+msgstr "Texto HTML a imprimir dentro de la etiqueta footer. Útil para añadir scripts."
+
+#: ../cfg/options.php:153
+msgid "E-mail"
+msgstr "E-mail"
+
+#: ../cfg/options.php:157
+msgid "The address for the blog e-mails from header. If empty, the WordPress default (wordpress@your.domain) will be used."
+msgstr "La dirección para la cabecera from de los e-mails del blog. Si se deja vacío, se usará el valor por defecto de WordPress (wordpress@tu.dominio)."
+
+#: ../cfg/options.php:160
+msgid "The name for the blog e-mails from header. If empty, the WordPress default (WordPress) will be used."
+msgstr "El nombre para la cabecera from de los e-mails del blog. Si se deja vacío, se usará el valor por defecto de WordPress (WordPress)."
+
+#: ../cfg/options.php:166
+msgid "Head"
+msgstr "Head"
+
+#: ../cfg/options.php:171
+msgid "MIME type of the blog favicon. Only relevant if the <a href=\"#jbcommon_favicon_url\" title=\"Go to the jbcommon_favicon_url option on the admin Configuration section\">jbcommon_favicon_url option</a> is defined. Usual MIME types for the favicon are image/png, image/jpeg, image/gif, and image/x-icon ."
+msgstr "Tipo MIME del favicon del blog. Sólo es relevante si la <a href=\"#jbcommon_favicon_url\" title=\"Ir a la opción jbcommon_favicon_url en la sección de administración Configuración\">opción jbcommon_favicon_url</a> está definida. Tipos MIME usuales para el favicon son image/png, image/jpeg, image/gif, e image/x-icon ."
+
+#: ../cfg/options.php:174
+msgid "URL to the blog favicon. If empty, anything will be printed."
+msgstr "URL al favicon del blog. Si se deja vacío no se mostrará nada."
+
+#: ../cfg/options.php:177
+msgid "HTML text to print inside the head tag. Useful for adding styles, scripts or uncommon meta tags."
+msgstr "Texto HTML a imprimir dentro de la etiqueta head. Útil para añadir estilos, scripts o etiquetas meta poco comunes."
+
+#: ../cfg/options.php:180
+msgid "Value for the author meta tag. If empty, the meta tag will not be printed."
+msgstr "Valor para la etiqueta meta author. Si se deja vacío la etiqueta meta no se imprimirá."
+
+#: ../cfg/options.php:183
+msgid "Value for the description meta tag. If empty, the meta tag will not be printed."
+msgstr "Valor para la etiqueta meta description. Si se deja vacío la etiqueta meta no se imprimirá."
+
+#: ../cfg/options.php:187
+msgid "Value for the generator meta tag. If empty, the meta tag will not be printed. This content overwrites the default WordPress generator meta tag, wich shows the WordPress version by default."
+msgstr "Valor para la etiqueta meta generator. Si se deja vacío la etiqueta meta no se imprimirá."
+
+#: ../cfg/options.php:190
+msgid "Value for the keywords meta tag. If empty, the meta tag will not be printed."
+msgstr "Valor para la etiqueta meta keywords. Si se deja vacío la etiqueta meta no se imprimirá."
+
+#: ../cfg/options.php:197
+msgid "Log"
+msgstr "Registro"
+
+#: ../cfg/options.php:208
+msgid "Manages the log feature. With the log disabled, the JB Common plugin ignores the other log options. <a href=\"%url%\" title=\"Go to JBCommon_Logger entry on the JB Common Info section\">Read the JBCommon_Logger reference entry for more info</a>."
+msgstr "Controla la función de registro. Con el registro deshabilitado, el plugin JB Common ignorará las otras opciones del registro. <a href=\"%url%\" title=\"Ir a la entrada de JBCommon_Logger en la sección Info de JB Common\">Leer la entrada de la referencia sobre JBCommon_Logger para más información</a>."
+
+#: ../cfg/options.php:229
+msgid "Path to the log file."
+msgstr "Ruta al archivo de registro."
+
+#: ../cfg/options.php:234
+msgid "Max number of lines in the log file."
+msgstr "Máximo número de líneas en el archivo de registro."
+
+#: ../cfg/options.php:239
+#: ../cfg/options.php:249
+#: ../cfg/options.php:273
+#: ../cfg/options.php:283
+#: ../cfg/options.php:317
+msgid "Verbose"
+msgstr "Detallado"
+
+#: ../cfg/options.php:242
+msgid "Log level for the log file."
+msgstr "Nivel de registro para el archivo de registro."
+
+#: ../cfg/options.php:245
+#: ../cfg/options.php:279
+#: ../cfg/options.php:313
+msgid "Debug"
+msgstr "Depuración"
+
+#: ../cfg/options.php:253
+#: ../cfg/options.php:287
+#: ../cfg/options.php:321
+msgid "Message"
+msgstr "Mensaje"
+
+#: ../cfg/options.php:257
+#: ../cfg/options.php:291
+#: ../cfg/options.php:325
+msgid "Warning"
+msgstr "Aviso"
+
+#: ../cfg/options.php:261
+#: ../cfg/options.php:295
+#: ../cfg/options.php:307
+#: ../cfg/options.php:329
+msgid "Error"
+msgstr "Error"
+
+#: ../cfg/options.php:276
+msgid "Log level for displaying to admin users."
+msgstr "Nivel de registro para mostrar a los usuarios administradores."
+
+#: ../cfg/options.php:310
+msgid "Log level for displaying to non admin users."
+msgstr "Nivel de registro para mostrar a los usuarios no administradores."
+
+#: ../lib/db-wrapper.php:34
+#: ../lib/db-wrapper.php:93
+#: ../lib/db-wrapper.php:166
+msgid "Querying database: %query%"
+msgstr "Consultando a la base de datos: %query%"
+
+#: ../lib/db-wrapper.php:62
+#: ../lib/db-wrapper.php:120
+#: ../lib/db-wrapper.php:199
+msgid "Error in database query ( %query% ): %error%"
+msgstr "Error en la consulta a la base de datos ( %query% ): %error%"
+
+#: ../lib/deployment.php:9
+msgid "Activating JB Common plugin."
+msgstr "Activando el plugin JB Common."
+
+#: ../lib/deployment.php:13
+msgid "Adding the options to the WordPress database."
+msgstr "Añadiendo las opciones a la base de datos de WordPress."
+
+#: ../lib/deployment.php:34
+msgid "Creating option with name '%option_name%'."
+msgstr "Creando la opción con nombre '%option_name%'."
+
+#: ../lib/deployment.php:40
+msgid "Option with name '%option_name%' already exists, skipping its creation."
+msgstr "La opción con el nombre '%option_name%' ya existe, se omite su creación."
+
+#: ../lib/deployment.php:54
+msgid "Activation completed."
+msgstr "Activación completada."
+
+#: ../lib/deployment.php:67
+msgid "Deactivating JB Common plugin."
+msgstr "Desactivando el plugin JB Common."
+
+#: ../lib/deployment.php:69
+msgid "Deactivation completed."
+msgstr "Desactivación completada."
+
+#: ../lib/deployment.php:82
+msgid "Uninstalling JB Common plugin."
+msgstr "Desinstalando el plugin JB Common."
+
+#: ../lib/deployment.php:87
+msgid "Complete uninstall option is activated. Deleting options."
+msgstr "La opción de desinstalación completa está activada. Eliminando opciones."
+
+#: ../lib/deployment.php:101
+msgid "Deleting option with name '%option_name%'."
+msgstr "Eliminando la opción con el nombre '%option_name%'."
+
+#: ../lib/deployment.php:107
+msgid "Option with name '%option_name%' not exists, skipping its deletion."
+msgstr "La opción con el nombre '%option_name%' no existe, se omite su eliminación."
+
+#: ../lib/deployment.php:123
+msgid "Uninstalling completed."
+msgstr "Desinstalación completada."
+
+#: ../lib/functions.php:60
+msgid "Attachments"
+msgstr "Adjuntos"
+
+#: ../lib/functions.php:66
+msgid "View or download the attachment"
+msgstr "Ver o descargar el adjunto"
+
+#: ../lib/functions.php:185
+msgid "Function jbcommon_url_append_vars expects parameter 2 to be an associative array. An empty string is returned."
+msgstr "La función jbcommon_url_append_vars espera que el parámetro 2 sea un array asociativo. Se devuelve un string vacío."
+
+#: ../lib/hooks.php:35
+#: ../lib/plugin-functions.php:10
+#: ../lib/plugin-functions.php:12
+#: ../lib/plugin-functions.php:32
+msgid "JB Common"
+msgstr "JB Common"
+
+#: ../lib/hooks.php:45
+#: ../lib/hooks.php:172
+#: ../lib/plugin-functions.php:10
+#: ../lib/plugin-functions.php:20
+msgid "Configuration"
+msgstr "Configuración"
+
+#: ../lib/hooks.php:55
+#: ../lib/plugin-functions.php:21
+msgid "Show Log"
+msgstr "Mostrar Registro"
+
+#: ../lib/hooks.php:65
+#: ../lib/hooks.php:173
+#: ../lib/plugin-functions.php:22
+msgid "Info"
+msgstr "Información"
+
+#: ../lib/hooks.php:77
+msgid "Plugins"
+msgstr "Plugins"
+
+#: ../lib/hooks.php:87
+msgid "Users"
+msgstr "Usuarios"
+
+#: ../lib/hooks.php:103
+msgid "Validate"
+msgstr "Validar"
+
+#: ../lib/logger.php:326
+msgid "The log file (%log_file%) is not writeable. Can't log this: %entry%"
+msgstr "El archivo de registro (%log_file%) no es escribible. No se puede registrar esto: %entry%"
+
+#: ../lib/logger.php:341
+msgid "A non JBCommon_Log_Entry has been found in the log buffer. Can't log this: %entry%"
+msgstr "Se ha encontrado algo distinto a una JBCommon_Log_Entry en el buffer del registro. No se puede registrar esto: %entry%"
+
+#: ../lib/logger.php:364
+msgid "The log file (%log_file%) does not exists. Can't log this: %entry%"
+msgstr "El archivo de registro (%log_file%) no existe. No se puede registrar esto: %entry%"
+
+#: ../lib/plugin-functions.php:31
+msgid "JB Common logo"
+msgstr "Logo de JB Common"
+
+#: ../lib/admin/configuration.php:39
+msgid "Options updated ( %options_names% )."
+msgstr "Opciones actualizadas ( %options_names% )."
+
+#: ../lib/admin/configuration.php:53
+msgid "Options"
+msgstr "Opciones"
+
+#: ../lib/admin/configuration.php:72
+msgid "Name"
+msgstr "Nombre"
+
+#: ../lib/admin/configuration.php:73
+msgid "Description"
+msgstr "Descripción"
+
+#: ../lib/admin/configuration.php:74
+msgid "Custom value"
+msgstr "Valor personalizado"
+
+#: ../lib/admin/configuration.php:75
+msgid "Default value"
+msgstr "Valor por defecto"
+
+#: ../lib/admin/configuration.php:141
+#: ../lib/admin/configuration.php:161
+msgid "Current value: %current_value%"
+msgstr "Valor actual: %current_value%"
+
+#: ../lib/admin/configuration.php:185
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../lib/admin/info.php:15
+msgid "About"
+msgstr "Acerca de"
+
+#: ../lib/admin/info.php:18
+msgid "Plugin name:"
+msgstr "Nombre del plugin:"
+
+#: ../lib/admin/info.php:19
+msgid "Plugin URI:"
+msgstr "URI del plugin:"
+
+#: ../lib/admin/info.php:19
+msgid "Go to the plugin website"
+msgstr "Ir a la página web del plugin"
+
+#: ../lib/admin/info.php:21
+msgid "Tags:"
+msgstr "Etiquetas:"
+
+#: ../lib/admin/info.php:22
+msgid "Version:"
+msgstr "Versión:"
+
+#: ../lib/admin/info.php:24
+msgid "Go to the author's website"
+msgstr "Ir a la página web del autor"
+
+#: ../lib/admin/info.php:26
+msgid "Buy me a coffee:"
+msgstr "Invítame a un café:"
+
+#: ../lib/admin/info.php:60
+msgid "License"
+msgstr "Licencia"
+
+#: ../lib/admin/info.php:64
+msgid "Plugin"
+msgstr "Plugin"
+
+#: ../lib/admin/info.php:65
+msgid "This plugin is released under the <a href=\"http://www.gnu.org\" title=\"Go to GNU/GPL v3.0 or later website\" target=\"_blank\">GNU/GPL v3.0 or later license</a>:"
+msgstr "Este plugin se libera bajo la <a href=\"http://www.gnu.org\" title=\"Ir a la página web de la licencia GNU/GPL v3.0 o posterior\" target=\"_blank\">licencia GNU/GPL v3.0 o posterior</a>:"
+
+#: ../lib/admin/info.php:743
+msgid "Third party resources:"
+msgstr "Recursos de terceras partes:"
+
+#: ../lib/admin/info.php:780
+msgid "Reference"
+msgstr "Referencia"
+
+#: ../lib/admin/info.php:784
+msgid "Shortcodes"
+msgstr "Shortcodes"
+
+#: ../lib/admin/info.php:837
+msgid "Widgets"
+msgstr "Widgets"
+
+#: ../lib/admin/info.php:890
+msgid "Functions"
+msgstr "Funciones"
+
+#: ../lib/admin/info.php:943
+msgid "JBCommon_Logger"
+msgstr "JBCommon_Logger"
+
+#: ../lib/admin/info.php:944
+msgid "This plugin implements a simple logger class. The log instance can be easily retrieved using the function jbcommon_get_logger(). The following are their public methods, wich you can call for integrating the log with your plugins and themes:"
+msgstr "Este plugin implementa una clase simple para registros. La instancia del registro puede obtenerse fácilmente usando la función jbcommon_get_logger(). Los siguientes son sus métodos públicos, a los que puedes llamar para integrar el registro en tus plugins y temas:"
+
+#: ../lib/admin/info.php:957
+msgid "The different levels for the messages, from more descriptive to less, are these:"
+msgstr "Los diferentes niveles para los mensajes, de más descriptivo a menos, son los siguientes:"
+
+#: ../lib/admin/info.php:970
+msgid "A little example:"
+msgstr "Un pequeño ejemplo:"
+
+#: ../lib/admin/info.php:973
+msgid "I\\'ve just learned to use the JB Common Logger!"
+msgstr "¡Acabo de aprender a usar el JB Common Logger!"
+
+#: ../lib/admin/info.php:978
+msgid "If you <a href=\"%config_url%\" title=\"Go to the Log switch on the JB Common Configuration section\">disable the logger on the Configuration section</a>, a JBCommon_Fake_Logger instance will be used instead of the original JBCommon_Logger. Both of them implements the JBCommon_Logger_Interface. This way, the calls to the logger methods won't raise errors, but nothing will happen. If you only want to disable the displaying or the file writting separately, set their log level to JBCOMMON_LOG_LEVEL_DISABLED."
+msgstr "Si <a href=\"%config_url%\" title=\"Ir al interruptor del Registro en la sección de Configuración del plugin JB Common\">deshabilitas el registro en la sección de Configuración</a>, se usará una instancia de JBCommon_Fake_Logger en lugar de la original JBCommon_Logger. Ambas implementan la interfaz JBCommon_Logger_Interface. De esta forma, las llamadas a los métodos de registro no lanzarán errores, pero no pasará nada. Si quieres deshabilitar la muestra o la escritura del archivo por separado, establece sus niveles de registro a JBCOMMON_LOG_LEVEL_DISABLED."
+
+#: ../lib/admin/info.php:982
+msgid "JBCommon_DB_Wrapper"
+msgstr "JBCommon_DB_Wrapper"
+
+#: ../lib/admin/info.php:983
+msgid "This plugin also implements a wrapper for some <a href=\"http://codex.wordpress.org/wpdb\" title=\"Go to the codex.wordpress.org entry for wpdb\" target=\"_blank\">$GLOBALS['wpdb']</a> methods, for logging reasons. You can retrieve the wrapper calling the function jbcommon_get_db_wrapper(), and then use its get_results, get_var and query methods like you are used to do with the $GLOBALS['wpdb'] ones. You don't need to retrieve the logger or the $GLOBALS['wpdb'] for this. Now, instead of using $GLOBALS['wpdb']->prefix inside the query, you must use the string '%wpdb->prefix%'. The real prefix will never be logged. The wrapper adds two new parameters to the old methods:"
+msgstr "Este plugin también implementa una envoltura para algunos métodos de <a href=\"http://codex.wordpress.org/wpdb\" title=\"Ir a la entrada del codex.wordpress.org sobre wpdb\" target=\"_blank\">$GLOBALS['wpdb']</a>, por razones de registro. Puedes obtener la envoltura llamando a la función jbcommon_get_db_wrapper(), y entonces usar sus métodos get_results, get_var and query como sueles hacer con los de $GLOBALS['wpdb']. No necesitas obtener la instancia del registrador o de $GLOBALS['wpdb']. Ahora, en lugar de usar $GLOBALS['wpdb']->prefix dentro de la consulta, debes usar la cadena '%wpdb->prefix%'. El prefijo real nunca será registrado. La envoltura añade dos nuevos parámetros a los viejos métodos:"
+
+#: ../lib/admin/info.php:985
+msgid "If true, raised errors executing the query will be logged."
+msgstr "Si true, registrará los errores lanzados durante la ejecución de la consulta."
+
+#: ../lib/admin/info.php:986
+msgid "If specified, the executed query will be logged with this level."
+msgstr "Si se especifica, la consulta ejecutada será registrada con este nivel."
+
+#: ../lib/admin/info.php:988
+msgid "For example:"
+msgstr "Por ejemplo:"
+
+#: ../lib/admin/info.php:995
+msgid "Maintenance Mode"
+msgstr "Modo de Mantenimiento"
+
+#: ../lib/admin/info.php:1009
+msgid "This feature allows you to redirect your visitors to a specified website while you are doing some maintentance on the main site. <a href=\"%set_url_url%\" title=\"Go to the maintenance URL input on the JB Common Configuration section\">Set the URL</a> and <a href=\"%switch_url%\" title=\"Go to the maintenance mode switch on the JB Common Configuration section\">enable the mode</a> for make it work. Then, only the users with the capability 'manage_options' can enter the main site without redirection. You can still go to the wp-login.php script to login. If you need to enter the site as an unlogged user, append the GET variable <a href=\"%set_name_url%\" title=\"Go to the maintenance get variable name input on the JB Common Configuration section\">name</a> and <a href=\"%set_value_url%\" title=\"Go to the maintenance get variable value input on the JB Common Configuration section\">value</a> you defined on the options admin section, like this:"
+msgstr "Esta funcionalidad te permite redirigir a tus visitantes a una página web que especifiques mientras estás realizando el mantenimiento de la página principal. <a href=\"%set_url_url%\" title=\"Ir al campo del formulario para la URL de mantenimiento en la sección de configuración de JB Common\">Establece la URL</a> y <a href=\"%switch_url%\" title=\"Ir al interruptor en la sección de Configuración de JB Common\">habilita el modo</a> para hacerlo funcionar. Entonces, sólo los usuarios con la capacidad 'manage_options' pueden entrar en la página principal sin ser redirigidos. Puedes seguir accediendo al script wp-login.php para registrarte. Si necesitas acceder a la página como usuario sin registrar, concatena el <a href=\"%set_name_url%\" title=\"Ir al campo del formulario para el nombre de la variable get de mantenimiento en la sección de configuración de JB Common\">nombre</a> y el <a href=\"%set_value_url%\" title=\"Ir al campo del formulario para el valor de la variable get de mantenimiento en la sección de configuración de JB Common\">valor</a> de la variable GET que hayas definido en la sección de administración sobre las opciones, de esta forma:"
+
+#: ../lib/admin/info.php:1021
+msgid "Thank You"
+msgstr "Gracias"
+
+#: ../lib/admin/info.php:1023
+msgid "Thanks for using my plugin! I hope you enjoy it."
+msgstr "¡Gracias por usar mi plugin! Espero que lo disfrutes."
+
+#: ../lib/admin/info.php:1035
+msgid "Remember that you can feedbackme anytime for suggestions and bug tracking on the <a href=\"%plugin_uri%\" title=\"Go to the WordPress.org page for %plugin_name%\" target=\"_blank\">WordPress.org page for this plugin</a> and on <a href=\"%authors_uri%\" title=\"Go to the author's website\" target=\"_blank\">my own website</a>."
+msgstr "Recuerda que puedes feedbackearme cuando quieras con sugerencias y bugs que hayas encontrado en <a href=\"%plugin_uri%\" title=\"Ir a la página de WordPress.org sobre %plugin_name%\" target=\"_blank\">la página de WordPress.org sobre este plugin</a> y en <a href=\"%authors_uri%\" title=\"Ir a la página web del autor\" target=\"_blank\">mi propia página web</a>."
+
+#: ../lib/admin/show-log.php:27
+msgid "The log file (%log_file%) does not exists."
+msgstr "El archivo de registro (%log_file%) no existe."
+
+#: ../lib/admin/show-log.php:40
+msgid "No log file has been defined. Please edit the <a href=\"%url%\" title=\"Go to option field on the JB Common configuration section\">the option value on the JB Common Configuration section</a> in order to use this feature."
+msgstr "No se ha definido ningún archivo de registro. Por favor edita el <a href=\"%url%\" title=\"Ir al campo del formulario sobre la opción en la sección de Configuración de JB Common\">valor de la opción en la sección de Configuración de JB Common</a> para poder usar esta funcionalidad."
+
+#: ../lib/widgets/bio.php:12
+msgid "A simple widget for showing an author bio."
+msgstr "Un widget sencillo para mostrar la biografía de un autor."
+
+#: ../lib/widgets/bio.php:37
+#: ../lib/widgets/feeds.php:30
+msgid "Read more about this widget on the <a href=\"%url%\" title=\"Go to the JB Common plugin Info section\" target=\"_blank\">JB Common plugin Info section</a>."
+msgstr "Lee más acerca de este widget en la <a href=\"%url%\" title=\"Ir a la sección de Información de JB Common\" target=\"_blank\">sección de Información del plugin JB Common</a>."
+
+#: ../lib/widgets/bio.php:40
+#: ../lib/widgets/feeds.php:33
+msgid "Title:"
+msgstr "Título:"
+
+#: ../lib/widgets/bio.php:44
+msgid "User:"
+msgstr "Usuario:"
+
+#: ../lib/widgets/bio.php:46
+msgid "Current post author"
+msgstr "Autor de la entrada actual"
+
+#: ../lib/widgets/feeds.php:12
+msgid "A simple widget for showing the available feeds for each page."
+msgstr "Un widget sencillo para mostrar las fuentes web disponibles para cada página."
+
+#: ../lib/widgets/feeds.php:72
+#: ../lib/widgets/feeds.php:189
+msgid "Atom"
+msgstr "Atom"
+
+#: ../lib/widgets/feeds.php:74
+msgid "Website Atom feed"
+msgstr "Fuente Atom del sitio web"
+
+#: ../lib/widgets/feeds.php:74
+#: ../lib/widgets/feeds.php:110
+msgid "Website"
+msgstr "Sitio web"
+
+#: ../lib/widgets/feeds.php:84
+msgid "Category %category_name% Atom feed"
+msgstr "Fuente Atom de la categoría %category_name% "
+
+#: ../lib/widgets/feeds.php:84
+#: ../lib/widgets/feeds.php:120
+msgid "Category %category_name%"
+msgstr "Categoría %category_name%"
+
+#: ../lib/widgets/feeds.php:90
+msgid "Comments on this post Atom feed"
+msgstr "Fuente Atom de los comentarios en esta entrada"
+
+#: ../lib/widgets/feeds.php:90
+#: ../lib/widgets/feeds.php:126
+msgid "Comments on this post"
+msgstr "Comentarios en esta entrada"
+
+#: ../lib/widgets/feeds.php:94
+msgid "Author %author_name% Atom feed"
+msgstr "Fuente Atom del autor %author_name% "
+
+#: ../lib/widgets/feeds.php:94
+#: ../lib/widgets/feeds.php:130
+msgid "Author %author_name%"
+msgstr "Autor %author_name%"
+
+#: ../lib/widgets/feeds.php:98
+#: ../lib/widgets/feeds.php:134
+msgid "This search RSS v2.0 feed"
+msgstr "Fuente RSS v2.0 de esta búsqueda"
+
+#: ../lib/widgets/feeds.php:98
+#: ../lib/widgets/feeds.php:134
+msgid "This search"
+msgstr "Esta búsqueda"
+
+#: ../lib/widgets/feeds.php:107
+#: ../lib/widgets/feeds.php:194
+msgid "RSS v2.0"
+msgstr "RSS v2.0"
+
+#: ../lib/widgets/feeds.php:110
+msgid "Website RSS v2.0 feed"
+msgstr "Fuente RSS v2.0 del sitio web"
+
+#: ../lib/widgets/feeds.php:120
+msgid "Category %category_name% RSS v2.0 feed"
+msgstr "Fuente RSS v2.0 de la categoría %category_name%"
+
+#: ../lib/widgets/feeds.php:126
+msgid "Comments on this post RSS v2.0 feed"
+msgstr "Fuente RSS v2.0 de los comentarios de esta entrada"
+
+#: ../lib/widgets/feeds.php:130
+msgid "Author %author_name% RSS v2.0 feed"
+msgstr "Fuente RSS v2.0 del autor %author_name%"
+
+#: ../lib/widgets/feeds.php:160
+msgid "Feed type:"
+msgstr "Tipo de fuente:"
+
+#~ msgid "Key for the $_SESSION array for storing the log object."
+#~ msgstr "Clave para almacenar el objeto del registro en el array $_SESSION."
+
+#~ msgid "A plugin with common features missed in WordPress."
+#~ msgstr "Un plugin con funciones comunes que se echan de menos en WordPress."
+
+#~ msgid "Site"
+#~ msgstr "Página"
+
+#, fuzzy
+#~ msgid "Go to Joan Botella's Blog"
+#~ msgstr "Blog de Joan Botella"
+
+#~ msgid "RSS2"
+#~ msgstr "RSS2"
+
+#~ msgid "Feed icon"
+#~ msgstr "Icono de fuente"
+
+#~ msgid "Joan Botella's Blog Atom feed"
+#~ msgstr "Fuente Atom del Blog de Joan Botella"
+
+#~ msgid "Joan Botella's Blog RSS2 feed"
+#~ msgstr "Fuente RSS2 del Blog de Joan Botella"
